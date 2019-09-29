@@ -14,7 +14,6 @@ body {
             MAIN PAGES
 
 
-
 .logo {
     margin-top: 70px;
     margin-bottom: 70px;
@@ -56,13 +55,26 @@ nav p {
     display: inline-flex;
     margin: 10px 30px;
 }
-p :hover {
+p:hover {
     display: inline;  
     color: orange;
 }
-a :hover {
+a:hover {
     display: inline;
     color: orange; 
+}
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightgreen;
+}
+
+span {
+    font: bold;
 }
 
 .main-container {
@@ -172,6 +184,8 @@ a :hover {
 
 
 .games-information {
+    
+    
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -224,8 +238,7 @@ table th, td {
  
 
 
-              FORM
-
+              /*FORM*/
 
 .container_form{
     padding: 30px;
