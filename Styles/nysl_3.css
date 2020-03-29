@@ -1,7 +1,5 @@
 * {
-   
-    font-family: 'Permanent Marker', fantasy;
-    font-style:italic;
+    font-family: 'Be Vietnam', sans-serif; 
     color: rgba(49, 137, 27, 0.83);
 }
 body {
@@ -11,8 +9,7 @@ body {
 }
 
 
-            MAIN PAGES
-
+            /* MAIN PAGES */
 
 .logo {
     margin-top: 70px;
@@ -47,7 +44,6 @@ nav {
     position: absolute;
     top: 20%;
     display: inline;
-    
     flex-direction: row;
     
 }
@@ -65,7 +61,7 @@ a:hover {
 }
 
 a:active {
-    color: red;
+    color: rgb(233, 136, 10);
     text-decoration: none;
 }
 
@@ -106,8 +102,6 @@ span {
     margin: 20px;
     padding: 0px;
     text-align: center;
-    font-style: italic;
-    font-family: fantasy;
 }
 .box2 h2 {
     margin-top: 10px;
